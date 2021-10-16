@@ -6,6 +6,9 @@ echo  Provisioning $HOSTNAME
 
 sudo  timedatectl  set-timezone Asia/Tokyo
 
+# NASM
+sudo  apt  install -y  nasm
+
 # RamDisk
 sudo  mkdir        /ramdisk
 sudo  chmod  1777  /ramdisk
